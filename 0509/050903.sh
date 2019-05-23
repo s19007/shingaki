@@ -1,1 +1,1 @@
-mkdir dir1/dir2/di3/file{01..05}
+touch dir1/dir2/dir3/file{01..10}
