@@ -4,7 +4,7 @@ if [ -d "$1" ]; then
     for file in $(find "$1" -maxdepth 1 -type f)
     do
         # fileが実行ファイルであれば表示
-        if [ -x "$file"]; then
+        if [! -r "$file"]; then
             echo $(basename "$file")
         fi
     done

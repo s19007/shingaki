@@ -22,7 +22,7 @@ do
     case "$select" in
         1)
             git add -i
-            gitt status
+            git status
             ;;
         2)
             echo -n 'comment'
